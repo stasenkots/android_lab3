@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:text="@string/stasenko_tatyana_sergeevna"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/specialisation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:text="@string/mathematics_and_programming_of_mobile_phones"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:text="@string/_9_group"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:text="@string/orientation"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
